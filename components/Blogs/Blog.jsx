@@ -43,6 +43,7 @@ const Blog = ({ blogs, commentCounts }) => {
   const featuredShortDescriptionJson = safelyParseJSON(
     featuredBlog.shortDescription
   );
+  // Api URL for images
   const api_url = process.env.NEXT_PUBLIC_API_BASE_URL || "";
 
   return (
