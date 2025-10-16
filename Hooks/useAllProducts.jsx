@@ -5,7 +5,8 @@ import useAxiosSecure from "./useAxiosSecure";
 
 const useAllProducts = () => {
   const axiosSecure = useAxiosSecure();
-
+ 
+  
   const {
     data: allProducts = [],
     refetch,
